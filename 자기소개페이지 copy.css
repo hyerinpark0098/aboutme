@@ -1,0 +1,50 @@
+body{
+  background-color: black;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap; /* 공간이 부족하면 다음 줄로 */
+}
+
+.head {
+  width: 50%; /* 두 개를 양옆에 배치 */
+  height: 1080px;
+  box-sizing: border-box; /* 테두리를 너비에 포함 */
+}
+
+.footer {
+  width: 100%; /* 한 줄 전체를 차지해서 아래로 */
+  margin-top: 50px;
+}
+
+span{
+  color: white;
+  font-size: 200px;
+  font-weight: bold;
+  line-height: 350px;
+}
+
+.여백{
+  width: 100px;
+  height: 400px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 비율을 유지하면서 칸을 채움 */
+  object-position: top; /* 머리·상체부터 보이게 */
+}
+
+button {
+  width: auto;
+  height: 150px;
+  padding: 0 50px;
+  font-size: 80px;
+
+  background-color: transparent;
+  border: 0.5px solid white;
+  border-radius: 20px;
+  color: white;
+}
